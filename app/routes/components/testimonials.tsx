@@ -41,7 +41,7 @@ const Testimonials = () => {
         >
           {clients.map((client) => (
             <SwiperSlide key={client.id}>
-              <div className="bg-white shadow-lg border rounded-2xl p-6 h-full flex flex-col justify-between">
+              <div className="bg-white shadow-lg border border-amber-50 rounded-2xl p-6 h-full flex flex-col justify-between">
                 <div>
                   <h3 className="font-semibold text-lg">{client.name}</h3>
                   <p className="text-sm text-gray-500">{client.email}</p>
