@@ -13,7 +13,7 @@ export default function Slider() {
   <span></span>
 </div>
 
-    <div className="container mx-auto px-28 py-8">
+    <div className="container mx-auto sm:px-10 md:px-10 lg:px-26 py-8">
   <div className="flex flex-col-reverse md:flex-row items-center gap-8">
     
     {/* النصوص */}

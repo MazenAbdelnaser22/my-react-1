@@ -1,6 +1,6 @@
 const Solutions = () => {
   return (
-    <section id="Solutions" className="bg-orange-50 py-16 relative overflow-hidden">
+    <section id="Solutions" className="bg-orange-50  py-16 relative overflow-hidden">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         
         {/* الصورة */}

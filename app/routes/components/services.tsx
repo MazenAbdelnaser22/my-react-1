@@ -13,11 +13,11 @@ const Services = () => {
             </div>
 
             {/* الكروت */}
-            <div className="container mx-auto px-28 py-16">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="container mx-auto sm:px-10 md:px-10 lg:px-26 py-16">
+                <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 gap-6">
 
                     {/* كرت 1 */}
-                    <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition relative">
+                    <div className="bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition relative">
                         {/* الأيقونة فوق شمال */}
                         <div className="absolute -top-2 -left-0 w-14 h-14 flex items-center justify-center rounded-br-2xl bg-yellow-100 shadow-md">
                             <span className="text-yellow-500 text-2xl">🔍</span>

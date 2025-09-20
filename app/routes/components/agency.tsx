@@ -1,21 +1,25 @@
 const Agency = ()=>{
     return (
         <>
-           <section id="Agency" className="py-16 relative overflow-hidden">
-      <div className="container mx-auto px-28 py-8 flex flex-col md:flex-row items-center gap-10">
+           <section id="Agency" className="py-16 sm:px-10 md:px-10 lg:px-26 relative overflow-hidden">
+      <div className="container mx-auto  py-8 flex flex-col md:flex-row items-center gap-10">
         {/* النصوص */}
         <div className="flex-1 ">
-          <h2 className="text-3xl font-bold mb-4">
-            Simple <span className="text-orange-500">Solutions!</span>
+          <h2 className="text-3xl font-bold mb-4 md:text-center pl-2 lg:text-left">
+            Our <span className="text-orange-500">Agency</span>
           </h2>
-          <p className="text-gray-600 mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis placeat aliquam voluptates saepe, omnis repudiandae architecto aspernatur veniam iusto nostrum maxime facilis? Beatae, nisi quas. Deserunt, blanditiis quos esse minus nulla dignissimos!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At numquam omnis, iure earum quasi sint. Tenetur ducimus blanditiis enim non saepe harum laborum, amet dignissimos, nostrum, dolorum debitis quod sequi!
+          <p className="text-gray-600 sm:text-center md:text-center  wrap-anywhere lg:text-left pl-2 mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Perferendis placeat aliquam voluptates saepe, omnis repudiandae architecto aspernatur veniam iusto nostrum maxime facilis? Beatae, nisi quas. <br />
+             Deserunt, blanditiis quos esse minus nulla dignissimos! <br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.  <br />
+            At numquam omnis, iure earum quasi sint. <br />
+             Tenetur ducimus blanditiis enim non saepe harum laborum, amet dignissimos, nostrum, dolorum debitis quod sequi!
           </p>
 
 
           {/* الأزرار */}
-          <div className="mt-8 flex gap-4">
+          <div className="mt-8 ml-2 flex gap-4">
             <button className="bg-orange-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-orange-600 transition">
               Get Started
             </button>
