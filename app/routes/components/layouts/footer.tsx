@@ -9,7 +9,7 @@ const Footer = () => {
       
     <footer className="bg-orange-50">
     {/* CTA */}
-      <div className="bg-orange-500 w-200  m-auto   flex justify-around text-white py-3   text-center">
+      <div className="bg-orange-500 gap-3 m-auto   flex justify-around text-white py-3   text-center">
         <h2 className="text-2xl font-semibold">Ready to get started?</h2>
       
              <button className=" border border-gray-300 hover:text-gray-700 text-white px-4 py-1.5 rounded-lg shadow-sm hover:bg-gray-100 transition">
