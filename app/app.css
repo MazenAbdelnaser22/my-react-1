@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+a.active{
+  color: chocolate;
+}
+
+/*  */
+.circles {
+  position: absolute;
+  top: 80px;   /* تحت الناف بار */
+  left: 50px;
+  z-index: 0;  /* ورا المحتوى */
+}
+
+.circles span {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #e85f19;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.circles span:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.circles span:nth-child(2) {
+  top: 20px;
+  left: 30px;
+  width: 8px;
+  height: 8px;
+}
+
+.circles span:nth-child(3) {
+  top: 40px;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+.circles span:nth-child(4) {
+  top: 60px;
+  left: 40px;
+}
+
+.circles span:nth-child(5) {
+  top: 80px;
+  left: 15px;
+  width: 6px;
+  height: 6px;
+}
+
+
+.circles2 {
+  position: absolute;
+  bottom: 27%;   /* تحت الناف بار */
+  right: 10%;
+  z-index: 0;  /* ورا المحتوى */
+}
+
+.circles2 span {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #e85f19;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.circles2 span:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.circles2 span:nth-child(2) {
+  top: 20px;
+  left: 30px;
+  width: 8px;
+  height: 8px;
+}
+
+.circles2 span:nth-child(3) {
+  top: 40px;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+.circles2 span:nth-child(4) {
+  top: 60px;
+  left: 40px;
+}
+
+.circles2 span:nth-child(5) {
+  top: 80px;
+  left: 15px;
+  width: 6px;
+  height: 6px;
+}
+/*  */
