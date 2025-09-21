@@ -90,7 +90,7 @@ export default function Navbar() {
           ))}
           <a
             href="#Sign"
-            className="ml-4 bg-[#e85f19] text-white px-4 py-2 rounded-full hover:bg-[#cc4f14] transition"
+            className="ml-4 bg-[#e85f19] text-white px-4 py-2 rounded-full hover:bg-orange-600 transition"
           >
             Sign Up
           </a>
@@ -114,7 +114,7 @@ export default function Navbar() {
           ))}
           <a
             href="#Sign"
-            className="bg-[#e85f19] text-white px-4 py-2 rounded-full hover:bg-[#cc4f14] transition inline-block"
+            className="bg-[#e85f19] text-white px-4 py-2 rounded-full hover:bg-orange-600 transition inline-block"
             onClick={() => setIsOpen(false)}
           >
             Sign Up

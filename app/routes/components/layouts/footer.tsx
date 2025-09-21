@@ -9,7 +9,7 @@ const Footer = () => {
       
     <footer className="bg-orange-50">
     {/* CTA */}
-      <div className="bg-orange-500 gap-3 m-auto lg:w-200  flex justify-around text-white py-3   text-center">
+      <div className="bg-[#e85f19] gap-3 m-auto lg:w-200  flex justify-around text-white py-3   text-center">
         <h2 className="text-2xl font-semibold">Ready to get started?</h2>
       
              <button className=" border border-gray-300 hover:text-gray-700 text-white px-4 py-1.5 rounded-lg shadow-sm hover:bg-gray-100 transition">
@@ -20,7 +20,7 @@ const Footer = () => {
       {/* Footer Content */}
       <div className="container mx-auto grid md:grid-cols-4 gap-6 py-12 px-6">
         <div>
-          <h3 className="text-lg font-bold text-orange-600">BrandBuzz</h3>
+          <h3 className="text-lg font-bold text-[#e85f19]">BrandBuzz</h3>
           <div className="flex gap-3 mt-3">
             <a href="#">🌐</a>
             <a href="#">📷</a>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-orange-600 text-center text-white py-3">
+      <div className="bg-[#e85f19] text-center text-white py-3">
         © All rights reserved 2025
       </div>
     </footer>

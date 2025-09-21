@@ -6,7 +6,7 @@ const Agency = ()=>{
         {/* النصوص */}
         <div className="flex-1 ">
           <h2 className="text-3xl font-bold mb-4 md:text-center pl-2 lg:text-left">
-            Our <span className="text-orange-500">Agency</span>
+            Our <span className="text-[#e85f19]">Agency</span>
           </h2>
           <p className="text-gray-600 sm:text-center md:text-center  wrap-anywhere lg:text-left pl-2 mb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
@@ -20,7 +20,7 @@ const Agency = ()=>{
 
           {/* الأزرار */}
           <div className="mt-8 ml-2 flex gap-4">
-            <button className="bg-orange-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-orange-600 transition">
+            <button className="bg-[#e85f19] text-white px-6 py-3 rounded-lg shadow-md hover:bg-orange-600 transition">
               Get Started
             </button>
         

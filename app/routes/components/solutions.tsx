@@ -13,14 +13,21 @@ const Solutions = () => {
 
         {/* الخطوات */}
         <div className="relative flex-1">
-          {/* الخط العمودي */}
-          <div className="absolute left-[1.25rem] top-0 bottom-8 w-0.5 bg-orange-200"></div>
+          {/* الخط العمودي */}<h1 className="text-3xl font-bold mb-4">
+                    Simple <span className="text-[#e85f19]">Solutions!</span>
+                </h1>
+                <p className="text-gray-600">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Non expedita nostrum repellendus! Rerum, quidem quae?
+                </p>
+                <br />
+          <div className="absolute left-[1.25rem] top-36 bottom-8 w-0.5 bg-[#e85f19]"></div>
 
-          <div className="space-y-6">
+          <div className="space-y-6 ">
             {/* خطوة */}
             <div className="flex items-start gap-4 relative">
               <div className="relative flex-shrink-0">
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white font-bold shadow-md relative z-10">
+                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#e85f19] text-white font-bold shadow-md relative z-10">
                   1
                 </span>
               </div>
@@ -35,7 +42,7 @@ const Solutions = () => {
             {/* باقي الخطوات */}
             <div className="flex items-start gap-4 relative">
               <div className="relative flex-shrink-0">
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white font-bold shadow-md relative z-10">
+                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#e85f19] text-white font-bold shadow-md relative z-10">
                   2
                 </span>
               </div>
@@ -49,7 +56,7 @@ const Solutions = () => {
 
             <div className="flex items-start gap-4 relative">
               <div className="relative flex-shrink-0">
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white font-bold shadow-md relative z-10">
+                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#e85f19] text-white font-bold shadow-md relative z-10">
                   3
                 </span>
               </div>
@@ -63,7 +70,7 @@ const Solutions = () => {
 
             <div className="flex items-start gap-4 relative">
               <div className="relative flex-shrink-0">
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white font-bold shadow-md relative z-10">
+                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#e85f19] text-white font-bold shadow-md relative z-10">
                   4
                 </span>
               </div>

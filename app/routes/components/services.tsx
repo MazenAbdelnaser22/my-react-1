@@ -4,7 +4,7 @@ const Services = () => {
             {/* titel*/}
             <div id="Services" className="text-center max-w-2xl mx-auto px-8 pt-2">
                 <h1 className="text-3xl font-bold mb-4">
-                    We Provide The Best <span className="text-orange-500">Services</span>
+                    We Provide The Best <span className="text-[#e85f19]">Services</span>
                 </h1>
                 <p className="text-gray-600">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.

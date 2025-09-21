@@ -5,6 +5,7 @@ import Agency from "~/routes/components/agency";
 import Services from "~/routes/components/services";
 import Testimonials from "~/routes/components/testimonials";
 import Footer from "~/routes/components/layouts/footer";
+import Navbar from "~/routes/components/layouts/navbar";
 
 export function Welcome() {
   return (
@@ -50,6 +51,7 @@ export function Welcome() {
     //   </div>
     // </main>
     <>
+    <Navbar/>
     <Slider/>
     <Services/>
     <Solutions/>

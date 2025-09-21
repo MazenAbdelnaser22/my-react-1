@@ -3,7 +3,7 @@
 export default function Slider() {
     return(
         <>
-        <div className="slider">
+        <div className="slider h-full pt-20">
     {/* <!-- Decorative Circles --> */}
 <div className="circles">
   <span></span>
@@ -13,21 +13,21 @@ export default function Slider() {
   <span></span>
 </div>
 
-    <div className="container mx-auto sm:px-10 md:px-10 lg:px-26 py-8">
+    <div className="container mx-auto sm:px-10 md:px-10 lg:px-26 py-8 h-full ">
   <div className="flex flex-col-reverse md:flex-row items-center gap-8">
     
     {/* النصوص */}
     <div className="flex-1 text-center md:text-left">
       <h1 className="text-4xl font-bold leading-tight text-gray-900 mb-4">
-        We create <br /><span className="text-orange-500">solutions</span> 
+        We create <br /><span className="text-[#e85f19]">solutions</span> 
         for  <br /> your business
       </h1>
       <p className="text-gray-600 mb-6">
         Our team keeps a keen eye on emerging trends and technologies 
         to ensure your marketing campaigns remain cutting-edge Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4 justify-between md:justify-start">
-        <button className="bg-orange-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-orange-600 transition">
+      <div className="flex px-3 sm:flex-row gap-4 justify-between md:justify-start">
+        <button className="bg-[#e85f19] text-white px-6 py-3 rounded-lg  hover:bg-orange-600 transition">
           Get Started
         </button> 
         <button className="flex items-center gap-2 text-gray-700 font-medium">
