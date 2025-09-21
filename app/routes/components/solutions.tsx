@@ -21,7 +21,7 @@ const Solutions = () => {
                     Non expedita nostrum repellendus! Rerum, quidem quae?
                 </p>
                 <br />
-          <div className="absolute left-[1.25rem] top-36 bottom-8 w-0.5 bg-[#e85f19]"></div>
+          <div className="absolute left-[1.25rem] top-39 bottom-8 w-0.5 bg-[#e85f19]"></div>
 
           <div className="space-y-6 ">
             {/* خطوة */}
